@@ -22,8 +22,21 @@ D1: 1N4148
 The resistor and capacitor values were selected to create approximately:
 5-minute active interval
 40-minute inactive interval
-
 The diode provides separate charging and discharging paths so that the active and inactive periods can be set to significantly different durations.
+
+Direction Control
+A CD4013 D flip-flop is used to maintain and alternate the direction state.
+
+H-Bridge
+The output stage is modeled as a four-switch H-bridge.
+
+The bridge receives two control states:
+Forward
+Reverse
+
+The control logic combines the NE555 enable signal with the direction state so that the H-bridge is only driven during an active timing interval. Depending on the flip-flop state, the bridge applies opposite polarity across the modeled load.
+
+This architecture allows bidirectional operation without manually reversing the motor connections.
 
 Project Status
 This project is currently a circuit design and LTspice simulation project. The circuit has not yet been physically constructed.
