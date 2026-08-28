@@ -41,4 +41,5 @@ This architecture allows bidirectional operation without manually reversing the 
 Project Status
 This project is currently a circuit design and LTspice simulation project. The circuit has not yet been physically constructed.
 The simulation was used as a preliminary design and verification step before potential hardware implementation.
+
 "I have recently finished my ESP32 PCB design in Altium and I will work on this one in the upcoming weeks between classes."
