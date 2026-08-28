@@ -25,9 +25,9 @@ The resistor and capacitor values were selected to create approximately:
 The diode provides separate charging and discharging paths so that the active and inactive periods can be set to significantly different durations.
 
 Direction Control
+
 A CD4013 D flip-flop is used to maintain and alternate the direction state.
 
-H-Bridge
 The output stage is modeled as a four-switch H-bridge.
 
 The bridge receives two control states:
