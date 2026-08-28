@@ -37,6 +37,8 @@ The bridge receives two control states:
 The control logic combines the NE555 enable signal with the direction state so that the H-bridge is only driven during an active timing interval. Depending on the flip-flop state, the bridge applies opposite polarity across the modeled load.
 
 This architecture allows bidirectional operation without manually reversing the motor connections.
+<img width="911" height="587" alt="image" src="https://github.com/user-attachments/assets/563d2717-453b-44c2-8389-ea9d2146aca2" />
+
 
 Project Status
 This project is currently a circuit design and LTspice simulation project. The circuit has not yet been physically constructed.
